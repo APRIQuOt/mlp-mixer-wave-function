@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "run_id": "tfim_8x8_HRNN_3p044_seed789",
+  "identity": {
+    "hamiltonian": "tfim",
+    "size": "8x8",
+    "architecture": "HRNN",
+    "phase": 3.044,
+    "seed": 789
+  },
+  "resolved_specification": {
+    "task": "ground_state",
+    "wavefunction": {
+      "backbone": "rnn",
+      "mode": "hierarchical",
+      "lattice": {
+        "Lx": 8,
+        "Ly": 8,
+        "patch_size": 2
+      },
+      "num_layers": 3,
+      "channel_dim": 16,
+      "token_hidden_dim": 16,
+      "use_phase": false,
+      "up_spin_target": null,
+      "recurrent_cell": "gru",
+      "transformer_heads": 4,
+      "subsampler_backbone": "rnn",
+      "subsampler_recurrent_cell": "gru",
+      "hierarchy": {
+        "block_size": 4,
+        "subsampler": {
+          "backbone": "rnn",
+          "mode": "patch",
+          "patch_size": 2,
+          "recurrent_cell": "gru",
+          "num_layers": 2
+        }
+      }
+    },
+    "hamiltonian": {
+      "kind": "tfim",
+      "J": 1.0,
+      "h": 3.044,
+      "periodic": false
+    },
+    "symmetry": {
+      "kind": "none"
+    }
+  },
+  "training": {
+    "num_samples": 256,
+    "num_steps": 15000,
+    "learning_rate": 0.0005,
+    "final_learning_rate_fraction": 1,
+    "final_num_samples": 256,
+    "sample_growth_start": 0.8,
+    "connected_strategy": "auto",
+    "connection_strategy": "auto",
+    "sampler_strategy": "auto",
+    "compact_connections": true,
+    "connection_capacity_multiple": 2048,
+    "chunk_size": 65536,
+    "max_connection_elements": 1048576,
+    "compile_logpsi": false,
+    "optimizer_strategy": "auto"
+  },
+  "runtime": {
+    "seed": 789,
+    "parameter_dtype": "float32"
+  },
+  "scheduler": {
+    "kind": "cosine",
+    "T_max": 15000,
+    "eta_min": 0.0005,
+    "step_when": "after_optimizer_update"
+  },
+  "reference_energy_density": -3.20504053118753,
+  "provenance": {
+    "checkpoint": "rnn/tfim_8x8_hier_mode/tfim-3.044-L8x8-rnn-hierarchical-seed789-ground-state.pt",
+    "checkpoint_sha256": "efdf7da79f607e84b8dbdcbd524d096251eb3f23461c4f341fe0360a89a18b15",
+    "recorded_device": "cuda",
+    "recorded_execution": {
+      "mode": "auto",
+      "model_backend": "auto",
+      "strict": false,
+      "symmetry_strategy": "legacy",
+      "symmetry_proposal_batch_size": 4096
+    },
+    "recorded_training_fields": [
+      "acceleration_backend",
+      "chunk_size",
+      "compact_connections",
+      "compile_logpsi",
+      "connected_strategy",
+      "connection_capacity_multiple",
+      "connection_strategy",
+      "final_learning_rate_fraction",
+      "final_num_samples",
+      "learning_rate",
+      "max_connection_elements",
+      "num_samples",
+      "num_steps",
+      "optimizer_strategy",
+      "rejection_capacity_multiple",
+      "rejection_oversample_factor",
+      "rejection_strategy",
+      "sample_growth_start",
+      "sampler_strategy"
+    ],
+    "observed_samples": [
+      256
+    ],
+    "trainable_parameters": 9936,
+    "training_history_sha256": "35ebc01cade1221a6d21ba68ac2c9d8ea5ce9a5e58973707ae65c58e67cc9783"
+  }
+}

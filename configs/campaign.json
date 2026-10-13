@@ -1,0 +1,4876 @@
+{
+  "schema_version": 1,
+  "runs": [
+    {
+      "run_id": "rydberg_16x16_HM_0p4_seed123",
+      "config": "configs/runs/rydberg_16x16_HM_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_16x16_HM_0p4_seed1234",
+      "config": "configs/runs/rydberg_16x16_HM_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_16x16_HM_0p4_seed456",
+      "config": "configs/runs/rydberg_16x16_HM_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_16x16_HM_0p4_seed5678",
+      "config": "configs/runs/rydberg_16x16_HM_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_16x16_HM_0p4_seed789",
+      "config": "configs/runs/rydberg_16x16_HM_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_16x16_HM_1p2_seed123",
+      "config": "configs/runs/rydberg_16x16_HM_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_16x16_HM_1p2_seed1234",
+      "config": "configs/runs/rydberg_16x16_HM_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_16x16_HM_1p2_seed456",
+      "config": "configs/runs/rydberg_16x16_HM_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_16x16_HM_1p2_seed5678",
+      "config": "configs/runs/rydberg_16x16_HM_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_16x16_HM_1p2_seed789",
+      "config": "configs/runs/rydberg_16x16_HM_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_16x16_HM_2p0_seed123",
+      "config": "configs/runs/rydberg_16x16_HM_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_16x16_HM_2p0_seed1234",
+      "config": "configs/runs/rydberg_16x16_HM_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_16x16_HM_2p0_seed456",
+      "config": "configs/runs/rydberg_16x16_HM_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_16x16_HM_2p0_seed5678",
+      "config": "configs/runs/rydberg_16x16_HM_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_16x16_HM_2p0_seed789",
+      "config": "configs/runs/rydberg_16x16_HM_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_24x24_HM_0p4_seed123",
+      "config": "configs/runs/rydberg_24x24_HM_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_24x24_HM_0p4_seed1234",
+      "config": "configs/runs/rydberg_24x24_HM_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_24x24_HM_0p4_seed456",
+      "config": "configs/runs/rydberg_24x24_HM_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_24x24_HM_0p4_seed5678",
+      "config": "configs/runs/rydberg_24x24_HM_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_24x24_HM_0p4_seed789",
+      "config": "configs/runs/rydberg_24x24_HM_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_24x24_HM_1p2_seed123",
+      "config": "configs/runs/rydberg_24x24_HM_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_24x24_HM_1p2_seed1234",
+      "config": "configs/runs/rydberg_24x24_HM_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_24x24_HM_1p2_seed456",
+      "config": "configs/runs/rydberg_24x24_HM_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_24x24_HM_1p2_seed5678",
+      "config": "configs/runs/rydberg_24x24_HM_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_24x24_HM_1p2_seed789",
+      "config": "configs/runs/rydberg_24x24_HM_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_24x24_HM_2p0_seed123",
+      "config": "configs/runs/rydberg_24x24_HM_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_24x24_HM_2p0_seed1234",
+      "config": "configs/runs/rydberg_24x24_HM_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_24x24_HM_2p0_seed456",
+      "config": "configs/runs/rydberg_24x24_HM_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_24x24_HM_2p0_seed5678",
+      "config": "configs/runs/rydberg_24x24_HM_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_24x24_HM_2p0_seed789",
+      "config": "configs/runs/rydberg_24x24_HM_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_M_0p4_seed123",
+      "config": "configs/runs/rydberg_4x4_M_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_M_0p4_seed1234",
+      "config": "configs/runs/rydberg_4x4_M_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_M_0p4_seed456",
+      "config": "configs/runs/rydberg_4x4_M_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_M_0p4_seed5678",
+      "config": "configs/runs/rydberg_4x4_M_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_M_0p4_seed789",
+      "config": "configs/runs/rydberg_4x4_M_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_M_1p2_seed123",
+      "config": "configs/runs/rydberg_4x4_M_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_M_1p2_seed1234",
+      "config": "configs/runs/rydberg_4x4_M_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_M_1p2_seed456",
+      "config": "configs/runs/rydberg_4x4_M_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_M_1p2_seed5678",
+      "config": "configs/runs/rydberg_4x4_M_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_M_1p2_seed789",
+      "config": "configs/runs/rydberg_4x4_M_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_M_2p0_seed123",
+      "config": "configs/runs/rydberg_4x4_M_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_M_2p0_seed1234",
+      "config": "configs/runs/rydberg_4x4_M_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_M_2p0_seed456",
+      "config": "configs/runs/rydberg_4x4_M_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_M_2p0_seed5678",
+      "config": "configs/runs/rydberg_4x4_M_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_M_2p0_seed789",
+      "config": "configs/runs/rydberg_4x4_M_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_HM_0p4_seed123",
+      "config": "configs/runs/rydberg_8x8_HM_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_HM_0p4_seed1234",
+      "config": "configs/runs/rydberg_8x8_HM_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_HM_0p4_seed456",
+      "config": "configs/runs/rydberg_8x8_HM_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_HM_0p4_seed5678",
+      "config": "configs/runs/rydberg_8x8_HM_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_HM_0p4_seed789",
+      "config": "configs/runs/rydberg_8x8_HM_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_HM_1p2_seed123",
+      "config": "configs/runs/rydberg_8x8_HM_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_HM_1p2_seed1234",
+      "config": "configs/runs/rydberg_8x8_HM_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_HM_1p2_seed456",
+      "config": "configs/runs/rydberg_8x8_HM_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_HM_1p2_seed5678",
+      "config": "configs/runs/rydberg_8x8_HM_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_HM_1p2_seed789",
+      "config": "configs/runs/rydberg_8x8_HM_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_HM_2p0_seed123",
+      "config": "configs/runs/rydberg_8x8_HM_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_HM_2p0_seed1234",
+      "config": "configs/runs/rydberg_8x8_HM_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_HM_2p0_seed456",
+      "config": "configs/runs/rydberg_8x8_HM_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_HM_2p0_seed5678",
+      "config": "configs/runs/rydberg_8x8_HM_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_HM_2p0_seed789",
+      "config": "configs/runs/rydberg_8x8_HM_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_M_0p4_seed123",
+      "config": "configs/runs/rydberg_8x8_M_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_M_0p4_seed1234",
+      "config": "configs/runs/rydberg_8x8_M_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_M_0p4_seed456",
+      "config": "configs/runs/rydberg_8x8_M_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_M_0p4_seed5678",
+      "config": "configs/runs/rydberg_8x8_M_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_M_0p4_seed789",
+      "config": "configs/runs/rydberg_8x8_M_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_M_1p2_seed123",
+      "config": "configs/runs/rydberg_8x8_M_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_M_1p2_seed1234",
+      "config": "configs/runs/rydberg_8x8_M_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_M_1p2_seed456",
+      "config": "configs/runs/rydberg_8x8_M_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_M_1p2_seed5678",
+      "config": "configs/runs/rydberg_8x8_M_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_M_1p2_seed789",
+      "config": "configs/runs/rydberg_8x8_M_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_M_2p0_seed123",
+      "config": "configs/runs/rydberg_8x8_M_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_M_2p0_seed1234",
+      "config": "configs/runs/rydberg_8x8_M_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_M_2p0_seed456",
+      "config": "configs/runs/rydberg_8x8_M_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_M_2p0_seed5678",
+      "config": "configs/runs/rydberg_8x8_M_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_M_2p0_seed789",
+      "config": "configs/runs/rydberg_8x8_M_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_M_1p0_seed123",
+      "config": "configs/runs/tfim_4x4_M_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_M_1p0_seed1234",
+      "config": "configs/runs/tfim_4x4_M_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_M_1p0_seed456",
+      "config": "configs/runs/tfim_4x4_M_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_M_1p0_seed5678",
+      "config": "configs/runs/tfim_4x4_M_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_M_1p0_seed789",
+      "config": "configs/runs/tfim_4x4_M_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_M_3p044_seed123",
+      "config": "configs/runs/tfim_4x4_M_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_M_3p044_seed1234",
+      "config": "configs/runs/tfim_4x4_M_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_M_3p044_seed456",
+      "config": "configs/runs/tfim_4x4_M_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_M_3p044_seed5678",
+      "config": "configs/runs/tfim_4x4_M_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_M_3p044_seed789",
+      "config": "configs/runs/tfim_4x4_M_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_M_5p0_seed123",
+      "config": "configs/runs/tfim_4x4_M_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_M_5p0_seed1234",
+      "config": "configs/runs/tfim_4x4_M_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_M_5p0_seed456",
+      "config": "configs/runs/tfim_4x4_M_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_M_5p0_seed5678",
+      "config": "configs/runs/tfim_4x4_M_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_M_5p0_seed789",
+      "config": "configs/runs/tfim_4x4_M_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "M",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_HM_1p0_seed123",
+      "config": "configs/runs/tfim_8x8_HM_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_HM_1p0_seed1234",
+      "config": "configs/runs/tfim_8x8_HM_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_HM_1p0_seed456",
+      "config": "configs/runs/tfim_8x8_HM_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_HM_1p0_seed5678",
+      "config": "configs/runs/tfim_8x8_HM_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_HM_1p0_seed789",
+      "config": "configs/runs/tfim_8x8_HM_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_HM_3p044_seed123",
+      "config": "configs/runs/tfim_8x8_HM_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_HM_3p044_seed1234",
+      "config": "configs/runs/tfim_8x8_HM_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_HM_3p044_seed456",
+      "config": "configs/runs/tfim_8x8_HM_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_HM_3p044_seed5678",
+      "config": "configs/runs/tfim_8x8_HM_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_HM_3p044_seed789",
+      "config": "configs/runs/tfim_8x8_HM_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_HM_5p0_seed123",
+      "config": "configs/runs/tfim_8x8_HM_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_HM_5p0_seed1234",
+      "config": "configs/runs/tfim_8x8_HM_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_HM_5p0_seed456",
+      "config": "configs/runs/tfim_8x8_HM_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_HM_5p0_seed5678",
+      "config": "configs/runs/tfim_8x8_HM_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_HM_5p0_seed789",
+      "config": "configs/runs/tfim_8x8_HM_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HM",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_M_1p0_seed123",
+      "config": "configs/runs/tfim_8x8_M_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_M_1p0_seed1234",
+      "config": "configs/runs/tfim_8x8_M_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_M_1p0_seed456",
+      "config": "configs/runs/tfim_8x8_M_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_M_1p0_seed5678",
+      "config": "configs/runs/tfim_8x8_M_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_M_1p0_seed789",
+      "config": "configs/runs/tfim_8x8_M_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_M_3p044_seed123",
+      "config": "configs/runs/tfim_8x8_M_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_M_3p044_seed1234",
+      "config": "configs/runs/tfim_8x8_M_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_M_3p044_seed456",
+      "config": "configs/runs/tfim_8x8_M_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_M_3p044_seed5678",
+      "config": "configs/runs/tfim_8x8_M_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_M_3p044_seed789",
+      "config": "configs/runs/tfim_8x8_M_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_M_5p0_seed123",
+      "config": "configs/runs/tfim_8x8_M_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_M_5p0_seed1234",
+      "config": "configs/runs/tfim_8x8_M_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_M_5p0_seed456",
+      "config": "configs/runs/tfim_8x8_M_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_M_5p0_seed5678",
+      "config": "configs/runs/tfim_8x8_M_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_M_5p0_seed789",
+      "config": "configs/runs/tfim_8x8_M_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "M",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_0p4_seed123",
+      "config": "configs/runs/rydberg_16x16_HRNN_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_0p4_seed1234",
+      "config": "configs/runs/rydberg_16x16_HRNN_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_0p4_seed456",
+      "config": "configs/runs/rydberg_16x16_HRNN_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_0p4_seed5678",
+      "config": "configs/runs/rydberg_16x16_HRNN_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_0p4_seed789",
+      "config": "configs/runs/rydberg_16x16_HRNN_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_1p2_seed123",
+      "config": "configs/runs/rydberg_16x16_HRNN_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_1p2_seed1234",
+      "config": "configs/runs/rydberg_16x16_HRNN_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_1p2_seed456",
+      "config": "configs/runs/rydberg_16x16_HRNN_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_1p2_seed5678",
+      "config": "configs/runs/rydberg_16x16_HRNN_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_1p2_seed789",
+      "config": "configs/runs/rydberg_16x16_HRNN_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_2p0_seed123",
+      "config": "configs/runs/rydberg_16x16_HRNN_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_2p0_seed1234",
+      "config": "configs/runs/rydberg_16x16_HRNN_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_2p0_seed456",
+      "config": "configs/runs/rydberg_16x16_HRNN_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_2p0_seed5678",
+      "config": "configs/runs/rydberg_16x16_HRNN_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_16x16_HRNN_2p0_seed789",
+      "config": "configs/runs/rydberg_16x16_HRNN_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_0p4_seed123",
+      "config": "configs/runs/rydberg_24x24_HRNN_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_0p4_seed1234",
+      "config": "configs/runs/rydberg_24x24_HRNN_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_0p4_seed456",
+      "config": "configs/runs/rydberg_24x24_HRNN_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_0p4_seed5678",
+      "config": "configs/runs/rydberg_24x24_HRNN_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_0p4_seed789",
+      "config": "configs/runs/rydberg_24x24_HRNN_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_1p2_seed123",
+      "config": "configs/runs/rydberg_24x24_HRNN_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_1p2_seed1234",
+      "config": "configs/runs/rydberg_24x24_HRNN_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_1p2_seed456",
+      "config": "configs/runs/rydberg_24x24_HRNN_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_1p2_seed5678",
+      "config": "configs/runs/rydberg_24x24_HRNN_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_1p2_seed789",
+      "config": "configs/runs/rydberg_24x24_HRNN_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_2p0_seed123",
+      "config": "configs/runs/rydberg_24x24_HRNN_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_2p0_seed1234",
+      "config": "configs/runs/rydberg_24x24_HRNN_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_2p0_seed456",
+      "config": "configs/runs/rydberg_24x24_HRNN_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_2p0_seed5678",
+      "config": "configs/runs/rydberg_24x24_HRNN_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_24x24_HRNN_2p0_seed789",
+      "config": "configs/runs/rydberg_24x24_HRNN_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_0p4_seed123",
+      "config": "configs/runs/rydberg_4x4_PRNN_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_0p4_seed1234",
+      "config": "configs/runs/rydberg_4x4_PRNN_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_0p4_seed456",
+      "config": "configs/runs/rydberg_4x4_PRNN_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_0p4_seed5678",
+      "config": "configs/runs/rydberg_4x4_PRNN_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_0p4_seed789",
+      "config": "configs/runs/rydberg_4x4_PRNN_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_1p2_seed123",
+      "config": "configs/runs/rydberg_4x4_PRNN_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_1p2_seed1234",
+      "config": "configs/runs/rydberg_4x4_PRNN_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_1p2_seed456",
+      "config": "configs/runs/rydberg_4x4_PRNN_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_1p2_seed5678",
+      "config": "configs/runs/rydberg_4x4_PRNN_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_1p2_seed789",
+      "config": "configs/runs/rydberg_4x4_PRNN_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_2p0_seed123",
+      "config": "configs/runs/rydberg_4x4_PRNN_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_2p0_seed1234",
+      "config": "configs/runs/rydberg_4x4_PRNN_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_2p0_seed456",
+      "config": "configs/runs/rydberg_4x4_PRNN_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_2p0_seed5678",
+      "config": "configs/runs/rydberg_4x4_PRNN_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_PRNN_2p0_seed789",
+      "config": "configs/runs/rydberg_4x4_PRNN_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_0p4_seed123",
+      "config": "configs/runs/rydberg_4x4_RNN_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_0p4_seed1234",
+      "config": "configs/runs/rydberg_4x4_RNN_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_0p4_seed456",
+      "config": "configs/runs/rydberg_4x4_RNN_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_0p4_seed5678",
+      "config": "configs/runs/rydberg_4x4_RNN_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_0p4_seed789",
+      "config": "configs/runs/rydberg_4x4_RNN_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_1p2_seed123",
+      "config": "configs/runs/rydberg_4x4_RNN_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_1p2_seed1234",
+      "config": "configs/runs/rydberg_4x4_RNN_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_1p2_seed456",
+      "config": "configs/runs/rydberg_4x4_RNN_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_1p2_seed5678",
+      "config": "configs/runs/rydberg_4x4_RNN_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_1p2_seed789",
+      "config": "configs/runs/rydberg_4x4_RNN_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_2p0_seed123",
+      "config": "configs/runs/rydberg_4x4_RNN_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_2p0_seed1234",
+      "config": "configs/runs/rydberg_4x4_RNN_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_2p0_seed456",
+      "config": "configs/runs/rydberg_4x4_RNN_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_2p0_seed5678",
+      "config": "configs/runs/rydberg_4x4_RNN_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_RNN_2p0_seed789",
+      "config": "configs/runs/rydberg_4x4_RNN_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_0p4_seed123",
+      "config": "configs/runs/rydberg_8x8_HRNN_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_0p4_seed1234",
+      "config": "configs/runs/rydberg_8x8_HRNN_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_0p4_seed456",
+      "config": "configs/runs/rydberg_8x8_HRNN_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_0p4_seed5678",
+      "config": "configs/runs/rydberg_8x8_HRNN_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_0p4_seed789",
+      "config": "configs/runs/rydberg_8x8_HRNN_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_1p2_seed123",
+      "config": "configs/runs/rydberg_8x8_HRNN_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_1p2_seed1234",
+      "config": "configs/runs/rydberg_8x8_HRNN_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_1p2_seed456",
+      "config": "configs/runs/rydberg_8x8_HRNN_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_1p2_seed5678",
+      "config": "configs/runs/rydberg_8x8_HRNN_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_1p2_seed789",
+      "config": "configs/runs/rydberg_8x8_HRNN_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_2p0_seed123",
+      "config": "configs/runs/rydberg_8x8_HRNN_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_2p0_seed1234",
+      "config": "configs/runs/rydberg_8x8_HRNN_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_2p0_seed456",
+      "config": "configs/runs/rydberg_8x8_HRNN_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_2p0_seed5678",
+      "config": "configs/runs/rydberg_8x8_HRNN_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_HRNN_2p0_seed789",
+      "config": "configs/runs/rydberg_8x8_HRNN_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_0p4_seed123",
+      "config": "configs/runs/rydberg_8x8_PRNN_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_0p4_seed1234",
+      "config": "configs/runs/rydberg_8x8_PRNN_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_0p4_seed456",
+      "config": "configs/runs/rydberg_8x8_PRNN_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_0p4_seed5678",
+      "config": "configs/runs/rydberg_8x8_PRNN_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_0p4_seed789",
+      "config": "configs/runs/rydberg_8x8_PRNN_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_1p2_seed123",
+      "config": "configs/runs/rydberg_8x8_PRNN_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_1p2_seed1234",
+      "config": "configs/runs/rydberg_8x8_PRNN_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_1p2_seed456",
+      "config": "configs/runs/rydberg_8x8_PRNN_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_1p2_seed5678",
+      "config": "configs/runs/rydberg_8x8_PRNN_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_1p2_seed789",
+      "config": "configs/runs/rydberg_8x8_PRNN_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_2p0_seed123",
+      "config": "configs/runs/rydberg_8x8_PRNN_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_2p0_seed1234",
+      "config": "configs/runs/rydberg_8x8_PRNN_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_2p0_seed456",
+      "config": "configs/runs/rydberg_8x8_PRNN_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_2p0_seed5678",
+      "config": "configs/runs/rydberg_8x8_PRNN_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_PRNN_2p0_seed789",
+      "config": "configs/runs/rydberg_8x8_PRNN_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_0p4_seed123",
+      "config": "configs/runs/rydberg_8x8_RNN_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_0p4_seed1234",
+      "config": "configs/runs/rydberg_8x8_RNN_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_0p4_seed456",
+      "config": "configs/runs/rydberg_8x8_RNN_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_0p4_seed5678",
+      "config": "configs/runs/rydberg_8x8_RNN_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_0p4_seed789",
+      "config": "configs/runs/rydberg_8x8_RNN_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_1p2_seed123",
+      "config": "configs/runs/rydberg_8x8_RNN_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_1p2_seed1234",
+      "config": "configs/runs/rydberg_8x8_RNN_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_1p2_seed456",
+      "config": "configs/runs/rydberg_8x8_RNN_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_1p2_seed5678",
+      "config": "configs/runs/rydberg_8x8_RNN_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_1p2_seed789",
+      "config": "configs/runs/rydberg_8x8_RNN_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_2p0_seed123",
+      "config": "configs/runs/rydberg_8x8_RNN_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_2p0_seed1234",
+      "config": "configs/runs/rydberg_8x8_RNN_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_2p0_seed456",
+      "config": "configs/runs/rydberg_8x8_RNN_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_2p0_seed5678",
+      "config": "configs/runs/rydberg_8x8_RNN_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_RNN_2p0_seed789",
+      "config": "configs/runs/rydberg_8x8_RNN_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_1p0_seed123",
+      "config": "configs/runs/tfim_4x4_PRNN_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_1p0_seed1234",
+      "config": "configs/runs/tfim_4x4_PRNN_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_1p0_seed456",
+      "config": "configs/runs/tfim_4x4_PRNN_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_1p0_seed5678",
+      "config": "configs/runs/tfim_4x4_PRNN_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_1p0_seed789",
+      "config": "configs/runs/tfim_4x4_PRNN_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_3p044_seed123",
+      "config": "configs/runs/tfim_4x4_PRNN_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_3p044_seed1234",
+      "config": "configs/runs/tfim_4x4_PRNN_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_3p044_seed456",
+      "config": "configs/runs/tfim_4x4_PRNN_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_3p044_seed5678",
+      "config": "configs/runs/tfim_4x4_PRNN_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_3p044_seed789",
+      "config": "configs/runs/tfim_4x4_PRNN_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_5p0_seed123",
+      "config": "configs/runs/tfim_4x4_PRNN_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_5p0_seed1234",
+      "config": "configs/runs/tfim_4x4_PRNN_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_5p0_seed456",
+      "config": "configs/runs/tfim_4x4_PRNN_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_5p0_seed5678",
+      "config": "configs/runs/tfim_4x4_PRNN_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_PRNN_5p0_seed789",
+      "config": "configs/runs/tfim_4x4_PRNN_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PRNN",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_RNN_1p0_seed123",
+      "config": "configs/runs/tfim_4x4_RNN_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_RNN_1p0_seed1234",
+      "config": "configs/runs/tfim_4x4_RNN_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_RNN_1p0_seed456",
+      "config": "configs/runs/tfim_4x4_RNN_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_RNN_1p0_seed5678",
+      "config": "configs/runs/tfim_4x4_RNN_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_RNN_1p0_seed789",
+      "config": "configs/runs/tfim_4x4_RNN_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_RNN_3p044_seed123",
+      "config": "configs/runs/tfim_4x4_RNN_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_RNN_3p044_seed1234",
+      "config": "configs/runs/tfim_4x4_RNN_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_RNN_3p044_seed456",
+      "config": "configs/runs/tfim_4x4_RNN_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_RNN_3p044_seed5678",
+      "config": "configs/runs/tfim_4x4_RNN_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_RNN_3p044_seed789",
+      "config": "configs/runs/tfim_4x4_RNN_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_RNN_5p0_seed123",
+      "config": "configs/runs/tfim_4x4_RNN_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_RNN_5p0_seed1234",
+      "config": "configs/runs/tfim_4x4_RNN_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_RNN_5p0_seed456",
+      "config": "configs/runs/tfim_4x4_RNN_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_RNN_5p0_seed5678",
+      "config": "configs/runs/tfim_4x4_RNN_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_RNN_5p0_seed789",
+      "config": "configs/runs/tfim_4x4_RNN_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "RNN",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_1p0_seed123",
+      "config": "configs/runs/tfim_8x8_HRNN_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_1p0_seed1234",
+      "config": "configs/runs/tfim_8x8_HRNN_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_1p0_seed456",
+      "config": "configs/runs/tfim_8x8_HRNN_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_1p0_seed5678",
+      "config": "configs/runs/tfim_8x8_HRNN_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_1p0_seed789",
+      "config": "configs/runs/tfim_8x8_HRNN_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_3p044_seed123",
+      "config": "configs/runs/tfim_8x8_HRNN_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_3p044_seed1234",
+      "config": "configs/runs/tfim_8x8_HRNN_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_3p044_seed456",
+      "config": "configs/runs/tfim_8x8_HRNN_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_3p044_seed5678",
+      "config": "configs/runs/tfim_8x8_HRNN_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_3p044_seed789",
+      "config": "configs/runs/tfim_8x8_HRNN_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_5p0_seed123",
+      "config": "configs/runs/tfim_8x8_HRNN_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_5p0_seed1234",
+      "config": "configs/runs/tfim_8x8_HRNN_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_5p0_seed456",
+      "config": "configs/runs/tfim_8x8_HRNN_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_5p0_seed5678",
+      "config": "configs/runs/tfim_8x8_HRNN_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_HRNN_5p0_seed789",
+      "config": "configs/runs/tfim_8x8_HRNN_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HRNN",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_1p0_seed123",
+      "config": "configs/runs/tfim_8x8_PRNN_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_1p0_seed1234",
+      "config": "configs/runs/tfim_8x8_PRNN_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_1p0_seed456",
+      "config": "configs/runs/tfim_8x8_PRNN_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_1p0_seed5678",
+      "config": "configs/runs/tfim_8x8_PRNN_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_1p0_seed789",
+      "config": "configs/runs/tfim_8x8_PRNN_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_3p044_seed123",
+      "config": "configs/runs/tfim_8x8_PRNN_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_3p044_seed1234",
+      "config": "configs/runs/tfim_8x8_PRNN_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_3p044_seed456",
+      "config": "configs/runs/tfim_8x8_PRNN_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_3p044_seed5678",
+      "config": "configs/runs/tfim_8x8_PRNN_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_3p044_seed789",
+      "config": "configs/runs/tfim_8x8_PRNN_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_5p0_seed123",
+      "config": "configs/runs/tfim_8x8_PRNN_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_5p0_seed1234",
+      "config": "configs/runs/tfim_8x8_PRNN_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_5p0_seed456",
+      "config": "configs/runs/tfim_8x8_PRNN_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_5p0_seed5678",
+      "config": "configs/runs/tfim_8x8_PRNN_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_PRNN_5p0_seed789",
+      "config": "configs/runs/tfim_8x8_PRNN_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PRNN",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_RNN_1p0_seed123",
+      "config": "configs/runs/tfim_8x8_RNN_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_RNN_1p0_seed1234",
+      "config": "configs/runs/tfim_8x8_RNN_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_RNN_1p0_seed456",
+      "config": "configs/runs/tfim_8x8_RNN_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_RNN_1p0_seed5678",
+      "config": "configs/runs/tfim_8x8_RNN_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_RNN_1p0_seed789",
+      "config": "configs/runs/tfim_8x8_RNN_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_RNN_3p044_seed123",
+      "config": "configs/runs/tfim_8x8_RNN_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_RNN_3p044_seed1234",
+      "config": "configs/runs/tfim_8x8_RNN_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_RNN_3p044_seed456",
+      "config": "configs/runs/tfim_8x8_RNN_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_RNN_3p044_seed5678",
+      "config": "configs/runs/tfim_8x8_RNN_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_RNN_3p044_seed789",
+      "config": "configs/runs/tfim_8x8_RNN_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_RNN_5p0_seed123",
+      "config": "configs/runs/tfim_8x8_RNN_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_RNN_5p0_seed1234",
+      "config": "configs/runs/tfim_8x8_RNN_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_RNN_5p0_seed456",
+      "config": "configs/runs/tfim_8x8_RNN_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_RNN_5p0_seed5678",
+      "config": "configs/runs/tfim_8x8_RNN_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_RNN_5p0_seed789",
+      "config": "configs/runs/tfim_8x8_RNN_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "RNN",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_0p4_seed123",
+      "config": "configs/runs/rydberg_16x16_HTF_M_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_0p4_seed1234",
+      "config": "configs/runs/rydberg_16x16_HTF_M_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_0p4_seed456",
+      "config": "configs/runs/rydberg_16x16_HTF_M_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_0p4_seed5678",
+      "config": "configs/runs/rydberg_16x16_HTF_M_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_0p4_seed789",
+      "config": "configs/runs/rydberg_16x16_HTF_M_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_1p2_seed123",
+      "config": "configs/runs/rydberg_16x16_HTF_M_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_1p2_seed1234",
+      "config": "configs/runs/rydberg_16x16_HTF_M_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_1p2_seed456",
+      "config": "configs/runs/rydberg_16x16_HTF_M_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_1p2_seed5678",
+      "config": "configs/runs/rydberg_16x16_HTF_M_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_1p2_seed789",
+      "config": "configs/runs/rydberg_16x16_HTF_M_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_2p0_seed123",
+      "config": "configs/runs/rydberg_16x16_HTF_M_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_2p0_seed1234",
+      "config": "configs/runs/rydberg_16x16_HTF_M_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_2p0_seed456",
+      "config": "configs/runs/rydberg_16x16_HTF_M_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_2p0_seed5678",
+      "config": "configs/runs/rydberg_16x16_HTF_M_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_M_2p0_seed789",
+      "config": "configs/runs/rydberg_16x16_HTF_M_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_0p4_seed123",
+      "config": "configs/runs/rydberg_16x16_HTF_R_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_0p4_seed1234",
+      "config": "configs/runs/rydberg_16x16_HTF_R_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_0p4_seed456",
+      "config": "configs/runs/rydberg_16x16_HTF_R_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_0p4_seed5678",
+      "config": "configs/runs/rydberg_16x16_HTF_R_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_0p4_seed789",
+      "config": "configs/runs/rydberg_16x16_HTF_R_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_1p2_seed123",
+      "config": "configs/runs/rydberg_16x16_HTF_R_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_1p2_seed1234",
+      "config": "configs/runs/rydberg_16x16_HTF_R_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_1p2_seed456",
+      "config": "configs/runs/rydberg_16x16_HTF_R_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_1p2_seed5678",
+      "config": "configs/runs/rydberg_16x16_HTF_R_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_1p2_seed789",
+      "config": "configs/runs/rydberg_16x16_HTF_R_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_2p0_seed123",
+      "config": "configs/runs/rydberg_16x16_HTF_R_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_2p0_seed1234",
+      "config": "configs/runs/rydberg_16x16_HTF_R_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_2p0_seed456",
+      "config": "configs/runs/rydberg_16x16_HTF_R_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_2p0_seed5678",
+      "config": "configs/runs/rydberg_16x16_HTF_R_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_16x16_HTF_R_2p0_seed789",
+      "config": "configs/runs/rydberg_16x16_HTF_R_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "16x16",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_0p4_seed123",
+      "config": "configs/runs/rydberg_24x24_HTF_M_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_0p4_seed1234",
+      "config": "configs/runs/rydberg_24x24_HTF_M_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_0p4_seed456",
+      "config": "configs/runs/rydberg_24x24_HTF_M_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_0p4_seed5678",
+      "config": "configs/runs/rydberg_24x24_HTF_M_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_0p4_seed789",
+      "config": "configs/runs/rydberg_24x24_HTF_M_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_1p2_seed123",
+      "config": "configs/runs/rydberg_24x24_HTF_M_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_1p2_seed1234",
+      "config": "configs/runs/rydberg_24x24_HTF_M_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_1p2_seed456",
+      "config": "configs/runs/rydberg_24x24_HTF_M_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_1p2_seed5678",
+      "config": "configs/runs/rydberg_24x24_HTF_M_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_1p2_seed789",
+      "config": "configs/runs/rydberg_24x24_HTF_M_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_2p0_seed123",
+      "config": "configs/runs/rydberg_24x24_HTF_M_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_2p0_seed1234",
+      "config": "configs/runs/rydberg_24x24_HTF_M_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_2p0_seed456",
+      "config": "configs/runs/rydberg_24x24_HTF_M_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_2p0_seed5678",
+      "config": "configs/runs/rydberg_24x24_HTF_M_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_M_2p0_seed789",
+      "config": "configs/runs/rydberg_24x24_HTF_M_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_0p4_seed123",
+      "config": "configs/runs/rydberg_24x24_HTF_R_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_0p4_seed1234",
+      "config": "configs/runs/rydberg_24x24_HTF_R_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_0p4_seed456",
+      "config": "configs/runs/rydberg_24x24_HTF_R_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_0p4_seed5678",
+      "config": "configs/runs/rydberg_24x24_HTF_R_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_0p4_seed789",
+      "config": "configs/runs/rydberg_24x24_HTF_R_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_1p2_seed123",
+      "config": "configs/runs/rydberg_24x24_HTF_R_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_1p2_seed1234",
+      "config": "configs/runs/rydberg_24x24_HTF_R_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_1p2_seed456",
+      "config": "configs/runs/rydberg_24x24_HTF_R_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_1p2_seed5678",
+      "config": "configs/runs/rydberg_24x24_HTF_R_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_1p2_seed789",
+      "config": "configs/runs/rydberg_24x24_HTF_R_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_2p0_seed123",
+      "config": "configs/runs/rydberg_24x24_HTF_R_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_2p0_seed1234",
+      "config": "configs/runs/rydberg_24x24_HTF_R_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_2p0_seed456",
+      "config": "configs/runs/rydberg_24x24_HTF_R_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_2p0_seed5678",
+      "config": "configs/runs/rydberg_24x24_HTF_R_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_24x24_HTF_R_2p0_seed789",
+      "config": "configs/runs/rydberg_24x24_HTF_R_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "24x24",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_0p4_seed123",
+      "config": "configs/runs/rydberg_4x4_PTF_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_0p4_seed1234",
+      "config": "configs/runs/rydberg_4x4_PTF_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_0p4_seed456",
+      "config": "configs/runs/rydberg_4x4_PTF_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_0p4_seed5678",
+      "config": "configs/runs/rydberg_4x4_PTF_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_0p4_seed789",
+      "config": "configs/runs/rydberg_4x4_PTF_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_1p2_seed123",
+      "config": "configs/runs/rydberg_4x4_PTF_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_1p2_seed1234",
+      "config": "configs/runs/rydberg_4x4_PTF_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_1p2_seed456",
+      "config": "configs/runs/rydberg_4x4_PTF_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_1p2_seed5678",
+      "config": "configs/runs/rydberg_4x4_PTF_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_1p2_seed789",
+      "config": "configs/runs/rydberg_4x4_PTF_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_2p0_seed123",
+      "config": "configs/runs/rydberg_4x4_PTF_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_2p0_seed1234",
+      "config": "configs/runs/rydberg_4x4_PTF_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_2p0_seed456",
+      "config": "configs/runs/rydberg_4x4_PTF_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_2p0_seed5678",
+      "config": "configs/runs/rydberg_4x4_PTF_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_PTF_2p0_seed789",
+      "config": "configs/runs/rydberg_4x4_PTF_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_TF_0p4_seed123",
+      "config": "configs/runs/rydberg_4x4_TF_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_TF_0p4_seed1234",
+      "config": "configs/runs/rydberg_4x4_TF_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_TF_0p4_seed456",
+      "config": "configs/runs/rydberg_4x4_TF_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_TF_0p4_seed5678",
+      "config": "configs/runs/rydberg_4x4_TF_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_TF_0p4_seed789",
+      "config": "configs/runs/rydberg_4x4_TF_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_TF_1p2_seed123",
+      "config": "configs/runs/rydberg_4x4_TF_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_TF_1p2_seed1234",
+      "config": "configs/runs/rydberg_4x4_TF_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_TF_1p2_seed456",
+      "config": "configs/runs/rydberg_4x4_TF_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_TF_1p2_seed5678",
+      "config": "configs/runs/rydberg_4x4_TF_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_TF_1p2_seed789",
+      "config": "configs/runs/rydberg_4x4_TF_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_4x4_TF_2p0_seed123",
+      "config": "configs/runs/rydberg_4x4_TF_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_4x4_TF_2p0_seed1234",
+      "config": "configs/runs/rydberg_4x4_TF_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_4x4_TF_2p0_seed456",
+      "config": "configs/runs/rydberg_4x4_TF_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_4x4_TF_2p0_seed5678",
+      "config": "configs/runs/rydberg_4x4_TF_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_4x4_TF_2p0_seed789",
+      "config": "configs/runs/rydberg_4x4_TF_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_0p4_seed123",
+      "config": "configs/runs/rydberg_8x8_HTF_M_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_0p4_seed1234",
+      "config": "configs/runs/rydberg_8x8_HTF_M_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_0p4_seed456",
+      "config": "configs/runs/rydberg_8x8_HTF_M_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_0p4_seed5678",
+      "config": "configs/runs/rydberg_8x8_HTF_M_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_0p4_seed789",
+      "config": "configs/runs/rydberg_8x8_HTF_M_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_1p2_seed123",
+      "config": "configs/runs/rydberg_8x8_HTF_M_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_1p2_seed1234",
+      "config": "configs/runs/rydberg_8x8_HTF_M_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_1p2_seed456",
+      "config": "configs/runs/rydberg_8x8_HTF_M_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_1p2_seed5678",
+      "config": "configs/runs/rydberg_8x8_HTF_M_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_1p2_seed789",
+      "config": "configs/runs/rydberg_8x8_HTF_M_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_2p0_seed123",
+      "config": "configs/runs/rydberg_8x8_HTF_M_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_2p0_seed1234",
+      "config": "configs/runs/rydberg_8x8_HTF_M_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_2p0_seed456",
+      "config": "configs/runs/rydberg_8x8_HTF_M_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_2p0_seed5678",
+      "config": "configs/runs/rydberg_8x8_HTF_M_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_M_2p0_seed789",
+      "config": "configs/runs/rydberg_8x8_HTF_M_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_0p4_seed123",
+      "config": "configs/runs/rydberg_8x8_HTF_R_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_0p4_seed1234",
+      "config": "configs/runs/rydberg_8x8_HTF_R_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_0p4_seed456",
+      "config": "configs/runs/rydberg_8x8_HTF_R_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_0p4_seed5678",
+      "config": "configs/runs/rydberg_8x8_HTF_R_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_0p4_seed789",
+      "config": "configs/runs/rydberg_8x8_HTF_R_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_1p2_seed123",
+      "config": "configs/runs/rydberg_8x8_HTF_R_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_1p2_seed1234",
+      "config": "configs/runs/rydberg_8x8_HTF_R_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_1p2_seed456",
+      "config": "configs/runs/rydberg_8x8_HTF_R_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_1p2_seed5678",
+      "config": "configs/runs/rydberg_8x8_HTF_R_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_1p2_seed789",
+      "config": "configs/runs/rydberg_8x8_HTF_R_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_2p0_seed123",
+      "config": "configs/runs/rydberg_8x8_HTF_R_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_2p0_seed1234",
+      "config": "configs/runs/rydberg_8x8_HTF_R_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_2p0_seed456",
+      "config": "configs/runs/rydberg_8x8_HTF_R_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_2p0_seed5678",
+      "config": "configs/runs/rydberg_8x8_HTF_R_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_HTF_R_2p0_seed789",
+      "config": "configs/runs/rydberg_8x8_HTF_R_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_0p4_seed123",
+      "config": "configs/runs/rydberg_8x8_PTF_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_0p4_seed1234",
+      "config": "configs/runs/rydberg_8x8_PTF_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_0p4_seed456",
+      "config": "configs/runs/rydberg_8x8_PTF_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_0p4_seed5678",
+      "config": "configs/runs/rydberg_8x8_PTF_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_0p4_seed789",
+      "config": "configs/runs/rydberg_8x8_PTF_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_1p2_seed123",
+      "config": "configs/runs/rydberg_8x8_PTF_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_1p2_seed1234",
+      "config": "configs/runs/rydberg_8x8_PTF_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_1p2_seed456",
+      "config": "configs/runs/rydberg_8x8_PTF_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_1p2_seed5678",
+      "config": "configs/runs/rydberg_8x8_PTF_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_1p2_seed789",
+      "config": "configs/runs/rydberg_8x8_PTF_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_2p0_seed123",
+      "config": "configs/runs/rydberg_8x8_PTF_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_2p0_seed1234",
+      "config": "configs/runs/rydberg_8x8_PTF_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_2p0_seed456",
+      "config": "configs/runs/rydberg_8x8_PTF_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_2p0_seed5678",
+      "config": "configs/runs/rydberg_8x8_PTF_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_PTF_2p0_seed789",
+      "config": "configs/runs/rydberg_8x8_PTF_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_TF_0p4_seed123",
+      "config": "configs/runs/rydberg_8x8_TF_0p4_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 0.4,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_TF_0p4_seed1234",
+      "config": "configs/runs/rydberg_8x8_TF_0p4_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 0.4,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_TF_0p4_seed456",
+      "config": "configs/runs/rydberg_8x8_TF_0p4_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 0.4,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_TF_0p4_seed5678",
+      "config": "configs/runs/rydberg_8x8_TF_0p4_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 0.4,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_TF_0p4_seed789",
+      "config": "configs/runs/rydberg_8x8_TF_0p4_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 0.4,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_TF_1p2_seed123",
+      "config": "configs/runs/rydberg_8x8_TF_1p2_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 1.2,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_TF_1p2_seed1234",
+      "config": "configs/runs/rydberg_8x8_TF_1p2_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 1.2,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_TF_1p2_seed456",
+      "config": "configs/runs/rydberg_8x8_TF_1p2_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 1.2,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_TF_1p2_seed5678",
+      "config": "configs/runs/rydberg_8x8_TF_1p2_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 1.2,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_TF_1p2_seed789",
+      "config": "configs/runs/rydberg_8x8_TF_1p2_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 1.2,
+      "seed": 789
+    },
+    {
+      "run_id": "rydberg_8x8_TF_2p0_seed123",
+      "config": "configs/runs/rydberg_8x8_TF_2p0_seed123.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 2.0,
+      "seed": 123
+    },
+    {
+      "run_id": "rydberg_8x8_TF_2p0_seed1234",
+      "config": "configs/runs/rydberg_8x8_TF_2p0_seed1234.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 2.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "rydberg_8x8_TF_2p0_seed456",
+      "config": "configs/runs/rydberg_8x8_TF_2p0_seed456.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 2.0,
+      "seed": 456
+    },
+    {
+      "run_id": "rydberg_8x8_TF_2p0_seed5678",
+      "config": "configs/runs/rydberg_8x8_TF_2p0_seed5678.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 2.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "rydberg_8x8_TF_2p0_seed789",
+      "config": "configs/runs/rydberg_8x8_TF_2p0_seed789.json",
+      "hamiltonian": "rydberg",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 2.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_PTF_1p0_seed123",
+      "config": "configs/runs/tfim_4x4_PTF_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_PTF_1p0_seed1234",
+      "config": "configs/runs/tfim_4x4_PTF_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_PTF_1p0_seed456",
+      "config": "configs/runs/tfim_4x4_PTF_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_PTF_1p0_seed5678",
+      "config": "configs/runs/tfim_4x4_PTF_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_PTF_1p0_seed789",
+      "config": "configs/runs/tfim_4x4_PTF_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_PTF_3p044_seed123",
+      "config": "configs/runs/tfim_4x4_PTF_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_PTF_3p044_seed1234",
+      "config": "configs/runs/tfim_4x4_PTF_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_PTF_3p044_seed456",
+      "config": "configs/runs/tfim_4x4_PTF_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_PTF_3p044_seed5678",
+      "config": "configs/runs/tfim_4x4_PTF_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_PTF_3p044_seed789",
+      "config": "configs/runs/tfim_4x4_PTF_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_PTF_5p0_seed123",
+      "config": "configs/runs/tfim_4x4_PTF_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_PTF_5p0_seed1234",
+      "config": "configs/runs/tfim_4x4_PTF_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_PTF_5p0_seed456",
+      "config": "configs/runs/tfim_4x4_PTF_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_PTF_5p0_seed5678",
+      "config": "configs/runs/tfim_4x4_PTF_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_PTF_5p0_seed789",
+      "config": "configs/runs/tfim_4x4_PTF_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "PTF",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_TF_1p0_seed123",
+      "config": "configs/runs/tfim_4x4_TF_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_TF_1p0_seed1234",
+      "config": "configs/runs/tfim_4x4_TF_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_TF_1p0_seed456",
+      "config": "configs/runs/tfim_4x4_TF_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_TF_1p0_seed5678",
+      "config": "configs/runs/tfim_4x4_TF_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_TF_1p0_seed789",
+      "config": "configs/runs/tfim_4x4_TF_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_TF_3p044_seed123",
+      "config": "configs/runs/tfim_4x4_TF_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_TF_3p044_seed1234",
+      "config": "configs/runs/tfim_4x4_TF_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_TF_3p044_seed456",
+      "config": "configs/runs/tfim_4x4_TF_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_TF_3p044_seed5678",
+      "config": "configs/runs/tfim_4x4_TF_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_TF_3p044_seed789",
+      "config": "configs/runs/tfim_4x4_TF_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_4x4_TF_5p0_seed123",
+      "config": "configs/runs/tfim_4x4_TF_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_4x4_TF_5p0_seed1234",
+      "config": "configs/runs/tfim_4x4_TF_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_4x4_TF_5p0_seed456",
+      "config": "configs/runs/tfim_4x4_TF_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_4x4_TF_5p0_seed5678",
+      "config": "configs/runs/tfim_4x4_TF_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_4x4_TF_5p0_seed789",
+      "config": "configs/runs/tfim_4x4_TF_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "4x4",
+      "architecture": "TF",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_1p0_seed123",
+      "config": "configs/runs/tfim_8x8_HTF_M_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_1p0_seed1234",
+      "config": "configs/runs/tfim_8x8_HTF_M_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_1p0_seed456",
+      "config": "configs/runs/tfim_8x8_HTF_M_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_1p0_seed5678",
+      "config": "configs/runs/tfim_8x8_HTF_M_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_1p0_seed789",
+      "config": "configs/runs/tfim_8x8_HTF_M_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_3p044_seed123",
+      "config": "configs/runs/tfim_8x8_HTF_M_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_3p044_seed1234",
+      "config": "configs/runs/tfim_8x8_HTF_M_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_3p044_seed456",
+      "config": "configs/runs/tfim_8x8_HTF_M_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_3p044_seed5678",
+      "config": "configs/runs/tfim_8x8_HTF_M_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_3p044_seed789",
+      "config": "configs/runs/tfim_8x8_HTF_M_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_5p0_seed123",
+      "config": "configs/runs/tfim_8x8_HTF_M_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_5p0_seed1234",
+      "config": "configs/runs/tfim_8x8_HTF_M_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_5p0_seed456",
+      "config": "configs/runs/tfim_8x8_HTF_M_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_5p0_seed5678",
+      "config": "configs/runs/tfim_8x8_HTF_M_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_HTF_M_5p0_seed789",
+      "config": "configs/runs/tfim_8x8_HTF_M_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+M",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_1p0_seed123",
+      "config": "configs/runs/tfim_8x8_HTF_R_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_1p0_seed1234",
+      "config": "configs/runs/tfim_8x8_HTF_R_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_1p0_seed456",
+      "config": "configs/runs/tfim_8x8_HTF_R_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_1p0_seed5678",
+      "config": "configs/runs/tfim_8x8_HTF_R_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_1p0_seed789",
+      "config": "configs/runs/tfim_8x8_HTF_R_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_3p044_seed123",
+      "config": "configs/runs/tfim_8x8_HTF_R_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_3p044_seed1234",
+      "config": "configs/runs/tfim_8x8_HTF_R_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_3p044_seed456",
+      "config": "configs/runs/tfim_8x8_HTF_R_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_3p044_seed5678",
+      "config": "configs/runs/tfim_8x8_HTF_R_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_3p044_seed789",
+      "config": "configs/runs/tfim_8x8_HTF_R_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_5p0_seed123",
+      "config": "configs/runs/tfim_8x8_HTF_R_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_5p0_seed1234",
+      "config": "configs/runs/tfim_8x8_HTF_R_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_5p0_seed456",
+      "config": "configs/runs/tfim_8x8_HTF_R_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_5p0_seed5678",
+      "config": "configs/runs/tfim_8x8_HTF_R_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_HTF_R_5p0_seed789",
+      "config": "configs/runs/tfim_8x8_HTF_R_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "HTF+R",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_PTF_1p0_seed123",
+      "config": "configs/runs/tfim_8x8_PTF_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_PTF_1p0_seed1234",
+      "config": "configs/runs/tfim_8x8_PTF_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_PTF_1p0_seed456",
+      "config": "configs/runs/tfim_8x8_PTF_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_PTF_1p0_seed5678",
+      "config": "configs/runs/tfim_8x8_PTF_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_PTF_1p0_seed789",
+      "config": "configs/runs/tfim_8x8_PTF_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_PTF_3p044_seed123",
+      "config": "configs/runs/tfim_8x8_PTF_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_PTF_3p044_seed1234",
+      "config": "configs/runs/tfim_8x8_PTF_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_PTF_3p044_seed456",
+      "config": "configs/runs/tfim_8x8_PTF_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_PTF_3p044_seed5678",
+      "config": "configs/runs/tfim_8x8_PTF_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_PTF_3p044_seed789",
+      "config": "configs/runs/tfim_8x8_PTF_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_PTF_5p0_seed123",
+      "config": "configs/runs/tfim_8x8_PTF_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_PTF_5p0_seed1234",
+      "config": "configs/runs/tfim_8x8_PTF_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_PTF_5p0_seed456",
+      "config": "configs/runs/tfim_8x8_PTF_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_PTF_5p0_seed5678",
+      "config": "configs/runs/tfim_8x8_PTF_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_PTF_5p0_seed789",
+      "config": "configs/runs/tfim_8x8_PTF_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "PTF",
+      "phase": 5.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_TF_1p0_seed123",
+      "config": "configs/runs/tfim_8x8_TF_1p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 1.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_TF_1p0_seed1234",
+      "config": "configs/runs/tfim_8x8_TF_1p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 1.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_TF_1p0_seed456",
+      "config": "configs/runs/tfim_8x8_TF_1p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 1.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_TF_1p0_seed5678",
+      "config": "configs/runs/tfim_8x8_TF_1p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 1.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_TF_1p0_seed789",
+      "config": "configs/runs/tfim_8x8_TF_1p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 1.0,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_TF_3p044_seed123",
+      "config": "configs/runs/tfim_8x8_TF_3p044_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 3.044,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_TF_3p044_seed1234",
+      "config": "configs/runs/tfim_8x8_TF_3p044_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 3.044,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_TF_3p044_seed456",
+      "config": "configs/runs/tfim_8x8_TF_3p044_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 3.044,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_TF_3p044_seed5678",
+      "config": "configs/runs/tfim_8x8_TF_3p044_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 3.044,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_TF_3p044_seed789",
+      "config": "configs/runs/tfim_8x8_TF_3p044_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 3.044,
+      "seed": 789
+    },
+    {
+      "run_id": "tfim_8x8_TF_5p0_seed123",
+      "config": "configs/runs/tfim_8x8_TF_5p0_seed123.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 5.0,
+      "seed": 123
+    },
+    {
+      "run_id": "tfim_8x8_TF_5p0_seed1234",
+      "config": "configs/runs/tfim_8x8_TF_5p0_seed1234.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 5.0,
+      "seed": 1234
+    },
+    {
+      "run_id": "tfim_8x8_TF_5p0_seed456",
+      "config": "configs/runs/tfim_8x8_TF_5p0_seed456.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 5.0,
+      "seed": 456
+    },
+    {
+      "run_id": "tfim_8x8_TF_5p0_seed5678",
+      "config": "configs/runs/tfim_8x8_TF_5p0_seed5678.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 5.0,
+      "seed": 5678
+    },
+    {
+      "run_id": "tfim_8x8_TF_5p0_seed789",
+      "config": "configs/runs/tfim_8x8_TF_5p0_seed789.json",
+      "hamiltonian": "tfim",
+      "size": "8x8",
+      "architecture": "TF",
+      "phase": 5.0,
+      "seed": 789
+    }
+  ],
+  "num_runs": 540,
+  "num_designs": 36,
+  "seeds": [
+    123,
+    456,
+    789,
+    1234,
+    5678
+  ],
+  "comparison_iterations": 15000,
+  "trailing_window": 1000
+}

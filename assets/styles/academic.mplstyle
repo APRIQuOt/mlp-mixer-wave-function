@@ -1,0 +1,61 @@
+# Core Typography & LaTeX Rendering
+text.usetex: True
+font.family: serif
+font.serif: Computer Modern Roman
+mathtext.fontset: cm
+
+# Axis & Grid
+image.cmap: viridis
+xtick.direction: in
+ytick.direction: in
+axes.spines.left: True
+axes.spines.right: True
+axes.spines.top: True
+axes.spines.bottom: True
+axes.formatter.use_mathtext: True
+axes.facecolor: white 
+axes.edgecolor: black
+axes.linewidth: 0.8
+axes.titlesize: large
+axes.titleweight: bold
+axes.titlecolor: auto
+axes.grid: True
+grid.alpha: 0.22
+xtick.labelbottom: True
+xtick.labeltop: False
+ytick.labelleft: True
+ytick.labelright: False 
+
+
+# Typography Font Sizes
+figure.titlesize: 16
+axes.labelsize: 12
+legend.fontsize: 12
+legend.title_fontsize: 12
+xtick.labelsize: 10
+ytick.labelsize: 10
+
+# Geometry Properties
+figure.figsize: 12, 8
+figure.dpi: 200 # resolution of the interactive pop-up window
+savefig.dpi: 300 # resolution of exported image files
+lines.markersize: 6
+
+# Legend Frame & Spacing
+legend.frameon: True
+legend.facecolor: fdfdfd
+legend.edgecolor: black
+legend.framealpha: 1.0
+legend.markerscale: 1.5
+legend.borderpad: 0.8
+legend.labelspacing: 0.6
+legend.handletextpad: 0.4
+legend.columnspacing: 2.5
+legend.borderaxespad: 0.0
+
+# Data-to-spine padding (fraction of data range per side)
+axes.xmargin: 0.08
+axes.ymargin: 0.08
+
+# THE DYNAMIC CYCLER: Combined Colors (Viridis Hex) and Markers
+axes.prop_cycle: cycler(color=['440154', '482878', '3e4989', '31688e', '26828e', '1f9e89', '35b779', '6ece58', 'b5de2b', 'fde725'], marker=['o', '^', 's', 'D', 'v', 'X', 'p', '*', '<', '>'])

@@ -1,0 +1,32 @@
+[project]
+name = "tnqs-paper-code"
+version = "0.1.0"
+description = "Frozen TFIM and Rydberg ground-state experiments for the MLP Mixer paper"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "torch==2.13.0",
+    "jaxtyping==0.3.11",
+    "numpy==2.5.2",
+    "scipy==1.18.0",
+    "polars==1.43.2",
+    "matplotlib==3.11.1",
+    "tqdm==4.70.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tnqs", "src/paper_workflow"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.hatch.build]
+exclude = ["build", ".venv", "**/__pycache__", "**/.DS_Store"]

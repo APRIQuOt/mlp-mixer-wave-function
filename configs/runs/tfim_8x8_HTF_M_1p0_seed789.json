@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "run_id": "tfim_8x8_HTF_M_1p0_seed789",
+  "identity": {
+    "hamiltonian": "tfim",
+    "size": "8x8",
+    "architecture": "HTF+M",
+    "phase": 1.0,
+    "seed": 789
+  },
+  "resolved_specification": {
+    "task": "ground_state",
+    "wavefunction": {
+      "backbone": "transformer",
+      "mode": "hierarchical",
+      "lattice": {
+        "Lx": 8,
+        "Ly": 8,
+        "patch_size": 2
+      },
+      "num_layers": 4,
+      "channel_dim": 16,
+      "token_hidden_dim": 24,
+      "use_phase": false,
+      "up_spin_target": null,
+      "recurrent_cell": "gru",
+      "transformer_heads": 4,
+      "subsampler_backbone": "mixer",
+      "subsampler_recurrent_cell": "gru",
+      "hierarchy": {
+        "block_size": 4,
+        "subsampler": {
+          "backbone": "mixer",
+          "mode": "patch",
+          "patch_size": 2,
+          "recurrent_cell": "gru",
+          "num_layers": 1
+        }
+      }
+    },
+    "hamiltonian": {
+      "kind": "tfim",
+      "J": 1.0,
+      "h": 1.0,
+      "periodic": false
+    },
+    "symmetry": {
+      "kind": "none"
+    }
+  },
+  "training": {
+    "num_samples": 256,
+    "num_steps": 15000,
+    "learning_rate": 0.0005,
+    "final_learning_rate_fraction": 1,
+    "final_num_samples": 256,
+    "sample_growth_start": 0.8,
+    "connected_strategy": "auto",
+    "connection_strategy": "auto",
+    "sampler_strategy": "auto",
+    "compact_connections": true,
+    "connection_capacity_multiple": 2048,
+    "chunk_size": 65536,
+    "max_connection_elements": 1048576,
+    "compile_logpsi": false,
+    "optimizer_strategy": "auto"
+  },
+  "runtime": {
+    "seed": 789,
+    "parameter_dtype": "float32"
+  },
+  "scheduler": {
+    "kind": "cosine",
+    "T_max": 15000,
+    "eta_min": 0.0005,
+    "step_when": "after_optimizer_update"
+  },
+  "reference_energy_density": -1.8996301846276955,
+  "provenance": {
+    "checkpoint": "transformer/tfim_8x8_hiermixer_mode/tfim-1.0-L8x8-transformer-hier-mixer-subsampler-seed789-ground-state.pt",
+    "checkpoint_sha256": "b6d25e346ec33c38626c68b389299c8fb98a0ef009f029b1a1ae1a12f153270d",
+    "recorded_device": "cuda",
+    "recorded_execution": {
+      "mode": "auto",
+      "model_backend": "auto",
+      "strict": false,
+      "symmetry_strategy": "legacy",
+      "symmetry_proposal_batch_size": 4096
+    },
+    "recorded_training_fields": [
+      "acceleration_backend",
+      "chunk_size",
+      "compact_connections",
+      "compile_logpsi",
+      "connected_strategy",
+      "connection_capacity_multiple",
+      "connection_strategy",
+      "final_learning_rate_fraction",
+      "final_num_samples",
+      "learning_rate",
+      "max_connection_elements",
+      "num_samples",
+      "num_steps",
+      "optimizer_strategy",
+      "rejection_capacity_multiple",
+      "rejection_oversample_factor",
+      "rejection_strategy",
+      "sample_growth_start",
+      "sampler_strategy"
+    ],
+    "observed_samples": [
+      256
+    ],
+    "trainable_parameters": 9900,
+    "training_history_sha256": "075ebdd2d8c7788fd493fbce44bd0d5539958a03ffb92d1602ddcf73c70d0f0a"
+  }
+}

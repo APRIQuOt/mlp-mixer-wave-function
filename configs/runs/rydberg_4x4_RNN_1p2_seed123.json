@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "run_id": "rydberg_4x4_RNN_1p2_seed123",
+  "identity": {
+    "hamiltonian": "rydberg",
+    "size": "4x4",
+    "architecture": "RNN",
+    "phase": 1.2,
+    "seed": 123
+  },
+  "resolved_specification": {
+    "task": "ground_state",
+    "wavefunction": {
+      "backbone": "rnn",
+      "mode": "site",
+      "lattice": {
+        "Lx": 4,
+        "Ly": 4,
+        "patch_size": 1
+      },
+      "num_layers": 3,
+      "channel_dim": 8,
+      "token_hidden_dim": 112,
+      "use_phase": false,
+      "up_spin_target": null,
+      "recurrent_cell": "gru",
+      "transformer_heads": 4,
+      "subsampler_backbone": null,
+      "subsampler_recurrent_cell": "gru",
+      "hierarchy": null
+    },
+    "hamiltonian": {
+      "kind": "rydberg",
+      "Omega": 1.0,
+      "delta": 1.2,
+      "R_b": 1.2009369551760027,
+      "C_6": null,
+      "interaction_cutoff": null
+    },
+    "symmetry": {
+      "kind": "none"
+    }
+  },
+  "training": {
+    "num_samples": 1024,
+    "num_steps": 20000,
+    "learning_rate": 0.0009,
+    "final_learning_rate_fraction": 0.01,
+    "final_num_samples": 1024,
+    "sample_growth_start": 1.0,
+    "connected_strategy": "auto",
+    "connection_strategy": "auto",
+    "sampler_strategy": "auto",
+    "compact_connections": true,
+    "connection_capacity_multiple": 2048,
+    "chunk_size": 65536,
+    "max_connection_elements": 1048576,
+    "compile_logpsi": false,
+    "optimizer_strategy": "auto"
+  },
+  "runtime": {
+    "seed": 123,
+    "parameter_dtype": "float32"
+  },
+  "scheduler": {
+    "kind": "cosine",
+    "T_max": 20000,
+    "eta_min": 9e-06,
+    "step_when": "after_optimizer_update"
+  },
+  "reference_energy_density": -0.59005,
+  "provenance": {
+    "checkpoint": "rnn/rydberg_4x4_site_mode/rydberg-1.2-L4x4-rnn-site-seed123-ground-state.pt",
+    "checkpoint_sha256": "65ea7fb2677123dfefdfb56756cb9d7f57e2cfafdd9c2fd504ab2eb1db1a0b2e",
+    "recorded_device": "cuda",
+    "recorded_execution": {
+      "mode": "auto",
+      "model_backend": "auto",
+      "strict": false,
+      "symmetry_strategy": "legacy",
+      "symmetry_proposal_batch_size": 4096
+    },
+    "recorded_training_fields": [
+      "acceleration_backend",
+      "chunk_size",
+      "compact_connections",
+      "compile_logpsi",
+      "connected_strategy",
+      "connection_capacity_multiple",
+      "connection_strategy",
+      "final_learning_rate_fraction",
+      "final_num_samples",
+      "learning_rate",
+      "max_connection_elements",
+      "num_samples",
+      "num_steps",
+      "optimizer_strategy",
+      "rejection_capacity_multiple",
+      "rejection_oversample_factor",
+      "rejection_strategy",
+      "sample_growth_start",
+      "sampler_strategy"
+    ],
+    "observed_samples": [
+      1024
+    ],
+    "trainable_parameters": 4970,
+    "training_history_sha256": "092366125358d387dce8c87afe84ae1468cbf4dd61ce6085cbd2ca2e52a120de"
+  }
+}

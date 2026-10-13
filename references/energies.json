@@ -1,0 +1,149 @@
+{
+  "tfim/8x8/1.0": {
+    "hamiltonian": "tfim",
+    "size": "8x8",
+    "phase": 1.0,
+    "energy_density": -1.8996301846276955,
+    "method": "ITensor benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "tfim/8x8/3.044": {
+    "hamiltonian": "tfim",
+    "size": "8x8",
+    "phase": 3.044,
+    "energy_density": -3.20504053118753,
+    "method": "ITensor benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "tfim/8x8/5.0": {
+    "hamiltonian": "tfim",
+    "size": "8x8",
+    "phase": 5.0,
+    "energy_density": -5.09060988509071,
+    "method": "ITensor benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "tfim/4x4/1.0": {
+    "hamiltonian": "tfim",
+    "size": "4x4",
+    "phase": 1.0,
+    "energy_density": -1.6787789480115596,
+    "method": "ITensor benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "tfim/4x4/3.044": {
+    "hamiltonian": "tfim",
+    "size": "4x4",
+    "phase": 3.044,
+    "energy_density": -3.17827634667886,
+    "method": "ITensor benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "tfim/4x4/5.0": {
+    "hamiltonian": "tfim",
+    "size": "4x4",
+    "phase": 5.0,
+    "energy_density": -5.07717492617471,
+    "method": "ITensor benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "rydberg/8x8/0.4": {
+    "hamiltonian": "rydberg",
+    "size": "8x8",
+    "phase": 0.4,
+    "energy_density": -0.34928,
+    "method": "QMC benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "rydberg/8x8/1.2": {
+    "hamiltonian": "rydberg",
+    "size": "8x8",
+    "phase": 1.2,
+    "energy_density": -0.53706,
+    "method": "QMC benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "rydberg/8x8/2.0": {
+    "hamiltonian": "rydberg",
+    "size": "8x8",
+    "phase": 2.0,
+    "energy_density": -0.82086,
+    "method": "QMC benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "rydberg/16x16/0.4": {
+    "hamiltonian": "rydberg",
+    "size": "16x16",
+    "phase": 0.4,
+    "energy_density": -0.33647,
+    "method": "QMC benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "rydberg/16x16/1.2": {
+    "hamiltonian": "rydberg",
+    "size": "16x16",
+    "phase": 1.2,
+    "energy_density": -0.51044,
+    "method": "QMC benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "rydberg/16x16/2.0": {
+    "hamiltonian": "rydberg",
+    "size": "16x16",
+    "phase": 2.0,
+    "energy_density": -0.78253,
+    "method": "QMC benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "rydberg/24x24/0.4": {
+    "hamiltonian": "rydberg",
+    "size": "24x24",
+    "phase": 0.4,
+    "energy_density": -0.332273079,
+    "method": "QMC benchmark",
+    "generation": "Supplied benchmark value.",
+    "standard_deviation": 5.59740059e-05
+  },
+  "rydberg/24x24/1.2": {
+    "hamiltonian": "rydberg",
+    "size": "24x24",
+    "phase": 1.2,
+    "energy_density": -0.501800226,
+    "method": "QMC benchmark",
+    "generation": "Supplied benchmark value.",
+    "standard_deviation": 5.83245723e-05
+  },
+  "rydberg/24x24/2.0": {
+    "hamiltonian": "rydberg",
+    "size": "24x24",
+    "phase": 2.0,
+    "energy_density": -0.769290695,
+    "method": "QMC benchmark",
+    "generation": "Supplied benchmark value.",
+    "standard_deviation": 6.72582019e-05
+  },
+  "rydberg/4x4/0.4": {
+    "hamiltonian": "rydberg",
+    "size": "4x4",
+    "phase": 0.4,
+    "energy_density": -0.37605,
+    "method": "QMC benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "rydberg/4x4/1.2": {
+    "hamiltonian": "rydberg",
+    "size": "4x4",
+    "phase": 1.2,
+    "energy_density": -0.59005,
+    "method": "QMC benchmark",
+    "generation": "Supplied benchmark value."
+  },
+  "rydberg/4x4/2.0": {
+    "hamiltonian": "rydberg",
+    "size": "4x4",
+    "phase": 2.0,
+    "energy_density": -0.89357,
+    "method": "QMC benchmark",
+    "generation": "Supplied benchmark value."
+  }
+}

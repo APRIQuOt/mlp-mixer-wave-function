@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "run_id": "rydberg_8x8_HM_2p0_seed789",
+  "identity": {
+    "hamiltonian": "rydberg",
+    "size": "8x8",
+    "architecture": "HM",
+    "phase": 2.0,
+    "seed": 789
+  },
+  "resolved_specification": {
+    "task": "ground_state",
+    "wavefunction": {
+      "backbone": "mixer",
+      "mode": "hierarchical",
+      "lattice": {
+        "Lx": 8,
+        "Ly": 8,
+        "patch_size": 1
+      },
+      "num_layers": 6,
+      "channel_dim": 20,
+      "token_hidden_dim": 16,
+      "use_phase": false,
+      "up_spin_target": null,
+      "recurrent_cell": "gru",
+      "transformer_heads": 4,
+      "subsampler_backbone": "mixer",
+      "subsampler_recurrent_cell": "gru",
+      "hierarchy": {
+        "block_size": 4,
+        "subsampler": {
+          "backbone": "mixer",
+          "mode": "patch",
+          "patch_size": 2,
+          "recurrent_cell": "gru",
+          "num_layers": 2
+        }
+      }
+    },
+    "hamiltonian": {
+      "kind": "rydberg",
+      "Omega": 1.0,
+      "delta": 2.0,
+      "R_b": null,
+      "C_6": 3.0,
+      "interaction_cutoff": null
+    },
+    "symmetry": {
+      "kind": "none"
+    }
+  },
+  "training": {
+    "num_samples": 256,
+    "num_steps": 20000,
+    "learning_rate": 0.0009,
+    "final_learning_rate_fraction": 0.01,
+    "final_num_samples": 256,
+    "sample_growth_start": 1.0,
+    "connected_strategy": "auto",
+    "connection_strategy": "auto",
+    "sampler_strategy": "auto",
+    "compact_connections": true,
+    "connection_capacity_multiple": 2048,
+    "chunk_size": 65536,
+    "max_connection_elements": 1048576,
+    "compile_logpsi": false,
+    "optimizer_strategy": "auto"
+  },
+  "runtime": {
+    "seed": 789,
+    "parameter_dtype": "float32"
+  },
+  "scheduler": {
+    "kind": "cosine",
+    "T_max": 20000,
+    "eta_min": 0.0,
+    "step_when": "after_optimizer_update"
+  },
+  "reference_energy_density": -0.82086,
+  "provenance": {
+    "checkpoint": "mixer/rydberg_8x8_hier_mode/rydberg-2.0-L8x8-hierarchical-seed789-ground-state.pt",
+    "checkpoint_sha256": "2c4aa86aab5553b3ef073c8dd77571ac2a88432c0c2afceb9e30f66906df581d",
+    "recorded_device": "mps",
+    "recorded_execution": {
+      "mode": "auto",
+      "model_backend": "auto",
+      "strict": false,
+      "symmetry_strategy": "legacy",
+      "symmetry_proposal_batch_size": 4096
+    },
+    "recorded_training_fields": [
+      "acceleration_backend",
+      "chunk_size",
+      "compact_connections",
+      "compile_logpsi",
+      "connected_strategy",
+      "connection_capacity_multiple",
+      "connection_strategy",
+      "final_learning_rate_fraction",
+      "final_num_samples",
+      "learning_rate",
+      "max_connection_elements",
+      "num_samples",
+      "num_steps",
+      "optimizer_strategy",
+      "rejection_capacity_multiple",
+      "rejection_oversample_factor",
+      "rejection_strategy",
+      "sample_growth_start",
+      "sampler_strategy"
+    ],
+    "observed_samples": [
+      256
+    ],
+    "trainable_parameters": 10080,
+    "training_history_sha256": "da1ee00034831790a49f02d8783e07bd9452ce90e94ca175bb9485e78c720304"
+  }
+}

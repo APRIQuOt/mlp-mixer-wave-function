@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "run_id": "rydberg_8x8_HTF_M_2p0_seed789",
+  "identity": {
+    "hamiltonian": "rydberg",
+    "size": "8x8",
+    "architecture": "HTF+M",
+    "phase": 2.0,
+    "seed": 789
+  },
+  "resolved_specification": {
+    "task": "ground_state",
+    "wavefunction": {
+      "backbone": "transformer",
+      "mode": "hierarchical",
+      "lattice": {
+        "Lx": 8,
+        "Ly": 8,
+        "patch_size": 2
+      },
+      "num_layers": 2,
+      "channel_dim": 16,
+      "token_hidden_dim": 64,
+      "use_phase": false,
+      "up_spin_target": null,
+      "recurrent_cell": "gru",
+      "transformer_heads": 4,
+      "subsampler_backbone": "mixer",
+      "subsampler_recurrent_cell": "gru",
+      "hierarchy": {
+        "block_size": 4,
+        "subsampler": {
+          "backbone": "mixer",
+          "mode": "patch",
+          "patch_size": 2,
+          "recurrent_cell": "gru",
+          "num_layers": 2
+        }
+      }
+    },
+    "hamiltonian": {
+      "kind": "rydberg",
+      "Omega": 1.0,
+      "delta": 2.0,
+      "R_b": 1.2009369551760027,
+      "C_6": null,
+      "interaction_cutoff": null
+    },
+    "symmetry": {
+      "kind": "none"
+    }
+  },
+  "training": {
+    "num_samples": 256,
+    "num_steps": 20000,
+    "learning_rate": 0.0009,
+    "final_learning_rate_fraction": 0.01,
+    "final_num_samples": 1024,
+    "sample_growth_start": 1.0,
+    "connected_strategy": "auto",
+    "connection_strategy": "auto",
+    "sampler_strategy": "auto",
+    "compact_connections": true,
+    "connection_capacity_multiple": 2048,
+    "chunk_size": 65536,
+    "max_connection_elements": 1048576,
+    "compile_logpsi": false,
+    "optimizer_strategy": "auto"
+  },
+  "runtime": {
+    "seed": 789,
+    "parameter_dtype": "float32"
+  },
+  "scheduler": {
+    "kind": "cosine",
+    "T_max": 20000,
+    "eta_min": 9e-06,
+    "step_when": "after_optimizer_update"
+  },
+  "reference_energy_density": -0.82086,
+  "provenance": {
+    "checkpoint": "transformer/rydberg_8x8_hiermixer_mode/rydberg-2.0-L8x8-transformer-hier-mixer-subsampler-seed789-ground-state.pt",
+    "checkpoint_sha256": "db448bdaa1e6fef3c5273745512867dd79bb5694c8458b5b4d3dafbd4b976c69",
+    "recorded_device": "cuda",
+    "recorded_execution": {
+      "mode": "auto",
+      "model_backend": "auto",
+      "strict": false,
+      "symmetry_strategy": "legacy",
+      "symmetry_proposal_batch_size": 4096
+    },
+    "recorded_training_fields": [
+      "acceleration_backend",
+      "chunk_size",
+      "compact_connections",
+      "compile_logpsi",
+      "connected_strategy",
+      "connection_capacity_multiple",
+      "connection_strategy",
+      "final_learning_rate_fraction",
+      "final_num_samples",
+      "learning_rate",
+      "max_connection_elements",
+      "num_samples",
+      "num_steps",
+      "optimizer_strategy",
+      "rejection_capacity_multiple",
+      "rejection_oversample_factor",
+      "rejection_strategy",
+      "sample_growth_start",
+      "sampler_strategy"
+    ],
+    "observed_samples": [
+      256
+    ],
+    "trainable_parameters": 10168,
+    "training_history_sha256": "994ec06a6f909c87dea72e82aa3b1ca5a4bc432256233805e02520c5d7fef3aa"
+  }
+}

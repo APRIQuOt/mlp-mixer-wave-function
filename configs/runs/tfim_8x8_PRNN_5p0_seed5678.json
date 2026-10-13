@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "run_id": "tfim_8x8_PRNN_5p0_seed5678",
+  "identity": {
+    "hamiltonian": "tfim",
+    "size": "8x8",
+    "architecture": "PRNN",
+    "phase": 5.0,
+    "seed": 5678
+  },
+  "resolved_specification": {
+    "task": "ground_state",
+    "wavefunction": {
+      "backbone": "rnn",
+      "mode": "patch",
+      "lattice": {
+        "Lx": 8,
+        "Ly": 8,
+        "patch_size": 2
+      },
+      "num_layers": 3,
+      "channel_dim": 16,
+      "token_hidden_dim": 80,
+      "use_phase": false,
+      "up_spin_target": null,
+      "recurrent_cell": "gru",
+      "transformer_heads": 4,
+      "subsampler_backbone": null,
+      "subsampler_recurrent_cell": "gru",
+      "hierarchy": null
+    },
+    "hamiltonian": {
+      "kind": "tfim",
+      "J": 1.0,
+      "h": 5.0,
+      "periodic": false
+    },
+    "symmetry": {
+      "kind": "none"
+    }
+  },
+  "training": {
+    "num_samples": 256,
+    "num_steps": 15000,
+    "learning_rate": 0.0005,
+    "final_learning_rate_fraction": 1,
+    "final_num_samples": 256,
+    "sample_growth_start": 0.8,
+    "connected_strategy": "auto",
+    "connection_strategy": "auto",
+    "sampler_strategy": "auto",
+    "compact_connections": true,
+    "connection_capacity_multiple": 2048,
+    "chunk_size": 65536,
+    "max_connection_elements": 1048576,
+    "compile_logpsi": false,
+    "optimizer_strategy": "auto"
+  },
+  "runtime": {
+    "seed": 5678,
+    "parameter_dtype": "float32"
+  },
+  "scheduler": {
+    "kind": "cosine",
+    "T_max": 15000,
+    "eta_min": 0.0005,
+    "step_when": "after_optimizer_update"
+  },
+  "reference_energy_density": -5.09060988509071,
+  "provenance": {
+    "checkpoint": "rnn/tfim_8x8_patch_mode/tfim-5.0-L8x8-rnn-patch-seed5678-ground-state.pt",
+    "checkpoint_sha256": "33c96701007d69c61172f87602e9cc26ad1bec80691c7f8b0bae8f27641ace3b",
+    "recorded_device": "cuda",
+    "recorded_execution": {
+      "mode": "auto",
+      "model_backend": "auto",
+      "strict": false,
+      "symmetry_strategy": "legacy",
+      "symmetry_proposal_batch_size": 4096
+    },
+    "recorded_training_fields": [
+      "acceleration_backend",
+      "chunk_size",
+      "compact_connections",
+      "compile_logpsi",
+      "connected_strategy",
+      "connection_capacity_multiple",
+      "connection_strategy",
+      "final_learning_rate_fraction",
+      "final_num_samples",
+      "learning_rate",
+      "max_connection_elements",
+      "num_samples",
+      "num_steps",
+      "optimizer_strategy",
+      "rejection_capacity_multiple",
+      "rejection_oversample_factor",
+      "rejection_strategy",
+      "sample_growth_start",
+      "sampler_strategy"
+    ],
+    "observed_samples": [
+      256
+    ],
+    "trainable_parameters": 10128,
+    "training_history_sha256": "8d674a233691b30827a8e3fc17ab342abcf0b85b45d6932ea7c7484ed7d5289a"
+  }
+}

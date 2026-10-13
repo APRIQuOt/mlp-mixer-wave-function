@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "run_id": "rydberg_24x24_HRNN_0p4_seed123",
+  "identity": {
+    "hamiltonian": "rydberg",
+    "size": "24x24",
+    "architecture": "HRNN",
+    "phase": 0.4,
+    "seed": 123
+  },
+  "resolved_specification": {
+    "task": "ground_state",
+    "wavefunction": {
+      "backbone": "rnn",
+      "mode": "hierarchical",
+      "lattice": {
+        "Lx": 24,
+        "Ly": 24,
+        "patch_size": 2
+      },
+      "num_layers": 3,
+      "channel_dim": 24,
+      "token_hidden_dim": 56,
+      "use_phase": false,
+      "up_spin_target": null,
+      "recurrent_cell": "gru",
+      "transformer_heads": 4,
+      "subsampler_backbone": "rnn",
+      "subsampler_recurrent_cell": "gru",
+      "hierarchy": {
+        "block_size": 6,
+        "subsampler": {
+          "backbone": "rnn",
+          "mode": "patch",
+          "patch_size": 2,
+          "recurrent_cell": "gru",
+          "num_layers": 2
+        }
+      }
+    },
+    "hamiltonian": {
+      "kind": "rydberg",
+      "Omega": 1.0,
+      "delta": 0.4,
+      "R_b": 1.2009369551760027,
+      "C_6": null,
+      "interaction_cutoff": null
+    },
+    "symmetry": {
+      "kind": "none"
+    }
+  },
+  "training": {
+    "num_samples": 256,
+    "num_steps": 25000,
+    "learning_rate": 0.0009,
+    "final_learning_rate_fraction": 0.01,
+    "final_num_samples": 256,
+    "sample_growth_start": 1.0,
+    "connected_strategy": "auto",
+    "connection_strategy": "auto",
+    "sampler_strategy": "auto",
+    "compact_connections": true,
+    "connection_capacity_multiple": 2048,
+    "chunk_size": null,
+    "max_connection_elements": 1048576,
+    "compile_logpsi": null,
+    "optimizer_strategy": "auto"
+  },
+  "runtime": {
+    "seed": 123,
+    "parameter_dtype": "float32"
+  },
+  "scheduler": {
+    "kind": "cosine",
+    "T_max": 25000,
+    "eta_min": 0.0,
+    "step_when": "after_optimizer_update"
+  },
+  "reference_energy_density": -0.332273079,
+  "provenance": {
+    "checkpoint": "rnn/rydberg_24x24_hierarchical_mode/rydberg-0.4-L24x24-rnn-hierarchical-seed123-ground-state.pt",
+    "checkpoint_sha256": "71bcbbf810f1f877095fc25d6d2667318c417c5a7120f5b816fd81ce07533f4e",
+    "recorded_device": "mps",
+    "recorded_execution": {
+      "mode": "fused",
+      "model_backend": "metal",
+      "strict": false,
+      "symmetry_strategy": "legacy",
+      "symmetry_proposal_batch_size": 4096
+    },
+    "recorded_training_fields": [
+      "acceleration_backend",
+      "chunk_size",
+      "compact_connections",
+      "compile_logpsi",
+      "connected_strategy",
+      "connection_capacity_multiple",
+      "connection_strategy",
+      "final_learning_rate_fraction",
+      "final_num_samples",
+      "learning_rate",
+      "max_connection_elements",
+      "num_samples",
+      "num_steps",
+      "optimizer_strategy",
+      "rejection_capacity_multiple",
+      "rejection_oversample_factor",
+      "rejection_strategy",
+      "sample_growth_start",
+      "sampler_strategy"
+    ],
+    "observed_samples": [
+      256
+    ],
+    "trainable_parameters": 28328,
+    "training_history_sha256": "253dab03615181374053fb430d2bbf75ff0c82bc04df868eef0c6e08da65aa6e"
+  }
+}
