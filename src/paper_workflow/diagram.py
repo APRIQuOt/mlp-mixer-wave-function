@@ -140,7 +140,8 @@ def draw_diagram():
         box(x, .49, .44, .26, gid="ann-block")
         text(cx, .62, "ANN", size=8.5)
         arrow([(cx, .49), (cx, .438)], scale=3)
-        text(cx, .381, rf"$p(\sigma_{{{index}}}\mid\sigma_{{<{index}}})$", size=8.2)
+        conditioning = rf"\leq {previous}"
+        text(cx, .381, rf"$p(\sigma_{{{index}}}\mid\sigma_{{{conditioning}}})$", size=8.2)
         arrow([(cx, .322), (cx, .282)], scale=3, gid="sample-from-probability")
         text(cx, .229, rf"$\sigma_{{{index}}}$", size=8.5)
         arrow([(cx, .838), (cx, .75)], scale=3)
