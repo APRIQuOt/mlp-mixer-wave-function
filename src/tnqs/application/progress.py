@@ -6,7 +6,7 @@ terminal, or progress-bar package. Outside a reporting context this is a no-op.
 
 from __future__ import annotations
 
-from collections.abc import Callable, Iterator
+from collections.abc import Callable, Generator
 from contextlib import contextmanager
 from contextvars import ContextVar
 from dataclasses import dataclass
@@ -29,7 +29,7 @@ _callback: ContextVar[ProgressCallback | None] = ContextVar(
 
 
 @contextmanager
-def progress_reporting(callback: ProgressCallback | None) -> Iterator[None]:
+def progress_reporting(callback: ProgressCallback | None) -> Generator[None]:
     """Install a callback for this context and restore it even after failure."""
     token = _callback.set(callback)
     try:

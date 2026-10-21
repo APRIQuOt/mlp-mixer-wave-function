@@ -1,4 +1,4 @@
-"""Compile training histories and calculate the paper's accuracy/cost summaries."""
+"""Compile training histories and calculate the accuracy/cost summaries."""
 from __future__ import annotations
 
 import argparse

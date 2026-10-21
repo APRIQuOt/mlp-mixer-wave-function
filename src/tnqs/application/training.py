@@ -1,4 +1,4 @@
-"""Adam VMC settings used by the paper's ground-state experiments."""
+"""Adam VMC settings used by the ground-state experiments."""
 
 from dataclasses import dataclass
 from math import isfinite

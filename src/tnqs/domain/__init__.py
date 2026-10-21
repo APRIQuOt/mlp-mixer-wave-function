@@ -1,4 +1,4 @@
-"""Ground-state model specifications and measured costs for the paper."""
+"""Ground-state model specifications and measured costs."""
 
 from tnqs.domain.costs import ParameterCounts, RuntimeFlopCounts
 from tnqs.domain.errors import InvalidExperiment

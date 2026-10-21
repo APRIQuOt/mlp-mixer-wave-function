@@ -1,9 +1,9 @@
-"""Architecture identities and plotting conventions shared by paper assets."""
+"""Architecture identities and plotting conventions shared by assets."""
 from typing import NamedTuple
 import numpy as np
 import matplotlib as mpl
 
-# Marker styles shared by the paper plots. The architecture
+# Marker styles shared by the plots. The architecture
 # plots below use a separate marker mapping so that marker shape identifies the
 # execution mode while colour identifies the backbone family.
 markers = ("*", "^", "h", "+", "o", ">", "<", "H", "1", "2", "3", "4", "D", "8", "P")

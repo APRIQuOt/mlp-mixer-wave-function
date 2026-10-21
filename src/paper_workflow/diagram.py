@@ -225,8 +225,6 @@ def verify_text_bounds(fig, artists):
 
 
 def add_svg_description(path):
-    # Matplotlib already exports vectors and text outlines, with meaningful
-    # artist ids. Add accessible metadata without serializing/reformatting it.
     contents = path.read_text()
     end = contents.index(">", contents.index("<svg")) + 1
     description = (

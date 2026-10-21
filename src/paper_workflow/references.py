@@ -1,4 +1,4 @@
-"""Independent sparse diagonalization for the paper's small-system references."""
+"""Independent sparse diagonalization for the small-system references."""
 from __future__ import annotations
 import argparse
 from itertools import combinations

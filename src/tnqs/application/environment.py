@@ -1,4 +1,4 @@
-"""Explicit device and precision settings for portable paper experiments."""
+"""Explicit device and precision settings for portable experiments."""
 from dataclasses import dataclass, asdict
 
 @dataclass(frozen=True)

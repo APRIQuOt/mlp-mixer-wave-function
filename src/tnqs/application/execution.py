@@ -1,4 +1,4 @@
-"""Portable model execution used by the paper reproduction."""
+"""Portable model execution."""
 from dataclasses import dataclass
 
 @dataclass(frozen=True)

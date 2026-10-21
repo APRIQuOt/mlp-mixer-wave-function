@@ -1,4 +1,4 @@
-"""Frozen TFIM/Rydberg ground-state architectures used in the paper."""
+"""Frozen TFIM/Rydberg ground-state architectures used."""
 
 from __future__ import annotations
 

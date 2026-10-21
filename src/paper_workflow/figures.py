@@ -1,4 +1,3 @@
-"""Render the current paper's figures from analyzed TFIM/Rydberg histories."""
 from __future__ import annotations
 import argparse
 from pathlib import Path

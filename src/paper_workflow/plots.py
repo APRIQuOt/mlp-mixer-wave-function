@@ -1,8 +1,8 @@
-"""Regenerate the paper-v2 plots from the paper-ready result parquet files.
+"""Generate the paper plots from the result parquet files.
 
 The article includes the PGF files written by this script.  The script keeps
 the data reduction in one place so that the figures can be regenerated when a
-new paper-ready parquet file is produced.  Both views of a training curve use
+new parquet file is produced.  Both views of a training curve use
 the first (lowest-numbered) seed for each architecture: the main plot shows
 its trailing-average error and the inset shows its unsmoothed energy history.
 Reusable panels omit legends; shared FLOP keys and an appendix architecture

@@ -1,7 +1,7 @@
-"""Exceptions for invalid paper experiment settings."""
+"""Exceptions for invalid experiment settings."""
 
 class TNQSError(Exception):
     """Base exception for the numerical package."""
 
 class InvalidExperiment(TNQSError, ValueError):
-    """Physical or architectural choices do not match the paper scope."""
+    """Physical or architectural choices do not match the scope."""

@@ -1,4 +1,4 @@
-"""Measured parameter and supported-operation counts for the paper."""
+"""Measured parameter and supported-operation counts."""
 
 from dataclasses import dataclass
 from typing import Any, Mapping
